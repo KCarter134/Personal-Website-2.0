@@ -76,10 +76,6 @@
 }
 /* Navbar container end */
 
-/* Menu icon start */
-
-/* Menu icon end */
-
                             /* HEADER CONTAINER END */
 
                             /* PERSONAL SITE INTRO + PICTURE START */
@@ -150,10 +146,18 @@
     font-style: italic;
 }
 
+
+                            /* PERSONAL SITE INTRO + PICTURE END */
+
 #main-info {
     height: 1000px;
 }
 
-                            /* PERSONAL SITE INTRO + PICTURE END */
-
+#about-title {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    border-bottom: 3px solid #000000;
+}
 
