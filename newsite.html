@@ -17,21 +17,21 @@
 <body>
 
     <section id="background">
-        <div class='light x1'></div>
-        <div class='light x2'></div>
-        <div class='light x3'></div>
-        <div class='light x4'></div>
-        <div class='light x5'></div>
-        <div class='light x6'></div>
-        <div class='light x7'></div>
-        <div class='light x8'></div>
-        <div class='light x9'></div>
-
         <!-- Header/navbar -->
         <header>
             <div class="header-flex">
                 <div class="menu-option">
-                    <button id="menu-button"><img src ="./assets/svg/menu.svg" alt="menu icon"/></button>
+                    <div onclick="showMenu()" id="menu-button"><img src ="./assets/svg/menu.svg" alt="menu icon"/></div>
+                    <div id="dropdown-menu" class="hidden-menu">
+                        <ul>
+                            <li class="menu-item"><a href="#">Home</a></li>
+                            <li class="menu-item"><a href="./newsite.html#intro-personal-info">About</a></li>
+                            <li class="menu-item"><a href="./newsite.html#front-end-dev-header">Skills</a></li>
+                            <li class="menu-item"><a href="./newsite.html#portfolio-title">Projects</a></li>
+                            <li class="menu-item"><a href="#">Contact</a></li>
+                            <li class="menu-item"><a href="#">Resume</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="navbar">
                     <ul class="nav-list">
@@ -70,16 +70,64 @@
 
         </section>
 
-<!--        <section id="sidebar">-->
-<!--            <div class="sidebar-wrapper">-->
-
-<!--            </div>-->
-<!--        </section>-->
     </section>
 
     <section id="main-info">
         <article id="about-info">
             <div id="about-title"><i>ABOUT ME</i></div>
+                                                            <!-- Start of language icons -->
+            <div class="master-language-container">
+                <div class="language-grid-flex">
+                    <div class="language-container-flex">
+                        <div class="language-icon">
+                            <img src="./assets/svg/html5.svg" alt="language image"/>
+                        </div>
+                        <div class="language-name-container">
+                            <div class="language-name">HTML5</div>
+                        </div>
+                    </div>
+                    <div class="language-container-flex">
+                        <div class="language-icon">
+                            <img src="./assets/svg/css-3.svg" alt="language image"/>
+                        </div>
+                        <div class="language-name-container">
+                            <div class="language-name">CSS</div>
+                        </div>
+                    </div>
+                    <div class="language-container-flex">
+                        <div class="language-icon">
+                            <img src="./assets/svg/javascript.svg" alt="language image"/>
+                        </div>
+                        <div class="language-name-container">
+                            <div class="language-name">JavaScript</div>
+                        </div>
+                    </div>
+                    <div class="language-container-flex">
+                        <div class="language-icon">
+                            <img src="./assets/svg/jquery.svg" alt="language image"/>
+                        </div>
+                        <div class="language-name-container">
+                            <div class="language-name">JQuery</div>
+                        </div>
+                    </div>
+                    <div class="language-container-flex">
+                        <div class="language-icon">
+                            <img src="./assets/svg/react.svg" alt="language image"/>
+                        </div>
+                        <div class="language-name-container">
+                            <div class="language-name">React.js</div>
+                        </div>
+                    </div>
+                    <div class="language-container-flex">
+                        <div class="language-icon">
+                            <img src="./assets/svg/typescript.svg" alt="language image"/>
+                        </div>
+                        <div class="language-name-container">
+                            <div class="language-name">TypeScript</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </article>
     </section>
 
@@ -99,8 +147,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="http://code.highcharts.com/highcharts.js"></script>
-    <script src="http://code.highcharts.com/modules/exporting.js"></script>
 
 
 

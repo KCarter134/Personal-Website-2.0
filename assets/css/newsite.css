@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=PT+Sans+Narrow&display=swap');
 
+body {
+    background: radial-gradient(#1d1d1d,#000000);
+}
+
                             /* HEADER CONTAINER BEGINNING */
 .header-flex {
     display: flex;
@@ -21,6 +25,31 @@
     top: 3vw;
     height: 5vh;
     width: 5vw;
+}
+
+.hidden-menu {
+    display: none;
+    height: 50vh;
+    width: 150px;
+    background-color: black;
+}
+
+.hidden-menu ul {
+    padding: 0;
+    list-style-type: none;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.menu-item a,
+.menu-item {
+    color: white;
+    height: 40px;
+    text-decoration: none;
+}
+
+#menu-button:hover {
+    cursor: pointer;
 }
 /* MENU ICON end */
 
@@ -81,6 +110,7 @@
                             /* PERSONAL SITE INTRO + PICTURE START */
 
 /* Personal info container start */
+
 #intro-personal-info {
     margin-top: 100px;
     justify-content: center;
@@ -149,15 +179,39 @@
 
                             /* PERSONAL SITE INTRO + PICTURE END */
 
+                                     /* ABOUT INFO START */
 #main-info {
-    height: 1000px;
+    padding-top: 50px;
 }
 
 #about-title {
     text-align: center;
-    padding-top: 20px;
     font-size: 60px;
     font-weight: 500;
     border-bottom: 3px solid #000000;
+    border-top: 3px solid #000000;
 }
 
+.master-language-container {
+    width: 50vw;
+}
+
+.language-grid-flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+}
+
+.language-container-flex {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.language-icon img {
+    height: 100px;
+    width: 100px;
+}
+
+
+                                     /* ABOUT INFO START */
